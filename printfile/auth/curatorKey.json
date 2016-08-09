@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "curator-tekuma",
+  "private_key_id": "bcdc36e5ab7f071e4068adcb7b0ea5129badc869",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3Sd1JbjPfYbme\nq0NHDZA279Fjrm6gn1A0R4CI6ECZJaIc9ppY63zUFO8PdeKyOJtO4us9r6k5MYxe\n4NcsCYpARGsWQAqN8DI5tii6KJ4QFtDYFGffORxBTeBzuyhCgqxV+B/h/M5PaK8L\nLo8cgcfQr6+ZCTEzQC8CZU9AJ4kBkPu9V3bH58HQp2NR0+qbSSV5zWvH4tpz5OxE\n3M+hZtvil0g0lHpD+GjB7+PvGci8gdIwgddVSQGj1XpVaUlhFCpIqpvQbPe/7tKR\nFYRPy0SYQH2V8cmi2OvscfGiwc3V+ha/kpXSZk2Yski8oRvgam0PTx5MlpxFBMVd\nnTMvh1ppAgMBAAECggEBALSW9o0vI7To2LbZD4SmfH1kdO6+IwnnbmLUQHSkQWGj\njsLyxsjt3SQpLBITmLT4yS1Er3sr5JQRmbix18/v5mPEBa76kmufSh1KuX4SHwrD\nMCp2kJGD967wSEI/GT/O+HYL733+VFgxUKa3zRHNXU7kiyNBx1Qz3R2DLD6NtZPv\n1Z8kdvf5l/6v+LUM3qnuYhpv/QgOQNEyaStwUlJBY8mrw6DcbYCk1IxVlOSmAbVV\nXhW9KUgm9T3QUcWj7Q/5Gp5QeumYbmv1OpUCeI8FnyZ4U1UT77+VkBb1t188CrwR\ndtqThdsXABA1xh1gY+P8VM6dI7q9NJKJiRNOptNHfAECgYEA6rCQwNEWQ93OOUf5\ng6uxfAC9g7elS6Xbgf72MQLkhN6wccc7GIJlx9+GhRR/ZsoV4FjvGfaUlRcLgwsw\n9ehe7vJCl7lh8/+JRJb7oV4c10l+O49cRKBik6YOdXv4diR9qT+BAOOrAc8XHDfS\nlmx44BuOYOkuDH6MKm5nTtmxJEkCgYEAx+52ebeCiKbfGPye/4dmQ2v0dTvKQ8gT\nvs5fBkIzBkzmKpmwSqmJymmgaOIj3UuQjEHwBZ1waxJzuvkhRfXunNISmTaCKGHy\nPTOxtRN3eC+hkR8GSNBEAxEApaIKDWWae8G2ZSAYUvFW9VHL7m7iRqQKoUm231pj\nf9hcHiWaRSECgYAPaakYAKNFsbtpZ6CrVQtC6YmIrPbeEPZpgyUH8vivATD1R/BJ\nm8azaaqb8syrI3psUWrieZ8oa2sGICYHAEu7xY06CaK1M4MATioYXuXl/Z2cq72T\nhDT1HWK1tH6Mw7i89L60ID+Kzt7lq4TY/Ca0ERs4ohe0Glt6LeX697D6gQKBgB49\nwqvshxEWdJ55767lEyHVnXdyIMkZ5WqyGot+zesBDLua3aCdflsgmQPkWNprSKT+\ngEjJJKz9cIXykwbbCUmtOOT16sAi+JorTJEALcz/H2gtEi1HW1I/ayKinPSjzrcz\neNxY+3ToTmfzBG6/VPisbXMyDDhCmtRGrMBenbQhAoGBAM3X217lcAX/EB0gg0cV\nyCUEGXdenWRmcj6f9PwTVUz3wdoeRun5o7qVjdjioF0pvgfAtrrG4H7F26Y7qa4E\njOXdNn4o2Pw1vo6vIfBc2ZCtPzviKXryuxmAe/FOrKFR3pziyfdG6LFPPRGBQxUq\nwMSbpwFGCipMVrOfvhIyZkMl\n-----END PRIVATE KEY-----\n",
+  "client_email": "tekuma@curator-tekuma.iam.gserviceaccount.com",
+  "client_id": "109275008747054371412",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tekuma%40curator-tekuma.iam.gserviceaccount.com"
+}

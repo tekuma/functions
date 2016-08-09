@@ -1,0 +1,17 @@
+{
+  "name": "resize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^3.2.1",
+    "gcloud": "^0.37.0",
+    "jimp": "^0.2.24",
+    "request": "^2.74.0"
+  }
+}

@@ -6,7 +6,7 @@ var Clarifai   = require('clarifai');
 var gcloud     = require('gcloud');
 
 // upload with ```bash
-// gcloud alpha functions deploy autotag --bucket staging.artist-tekuma-4a697.appspot.com --trigger-gs-uri art-uploads
+// gcloud alpha functions deploy autotag --bucket art-functions --trigger-gs-uri art-uploads
 
 exports.autotag = function autotag (context,data) {
     var name        = data.name;

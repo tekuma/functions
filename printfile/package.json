@@ -1,0 +1,15 @@
+{
+  "name": "printfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gcloud": "^0.37.0",
+    "jimp": "^0.2.24"
+  }
+}
