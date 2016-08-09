@@ -1,6 +1,6 @@
 # Cloud Function Repository
-        -----
-#### NOTE: This is Alpha-Technology
+
+#### NOTE: This is Alpha-Technology. Things *will* change.
 
 see: <https://cloud.google.com/functions/docs/>
 
