@@ -3,6 +3,9 @@ var request = require('request');
 // upload with ```bash
 // gcloud alpha functions deploy artalert --bucket staging.artist-tekuma-4a697.appspot.com --trigger-gs-uri art-uploads
 
+/*
+curl -X POST https://hooks.slack.com/services/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 -d '{"channel":"uploads", "username":"test", "text":"This is a test"}'
+ */
 
 exports.artalert = function artalert (context,data) {
     var slackURL   = "https://hooks.slack.com/services/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";

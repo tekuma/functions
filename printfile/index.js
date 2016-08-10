@@ -1,13 +1,11 @@
 var gcloud   = require('gcloud');
 var jimp     = require('jimp');
 
-
-
 // Deploy via gcloud CLI via
 // $ gcloud alpha functions deploy printfile --bucket art-functions --trigger-http
 
 /*  Test Trigger with:
-  gcloud alpha functions call printfile --data '{"uid":"JvrOHCvEKRaLiFHmjmq02rg0Ava2" , "artistuid":"-KOAlYQiVqtVX9Bgwrba" , "artist":"Test Name"}'
+  gcloud alpha functions call printfile --data '{"uid":"JvrOHCvEKRaLiFHmjmq02rg0Ava2" , "artworkuid":"-KOAlYQiVqtVX9Bgwrba" , "artist":"Test Name"}'
  */
 
 
@@ -69,7 +67,6 @@ exports.printfile = function printfile(req,res) {
             keyFilename: './auth/artistKey.json',
             projectId  : 'artist-tekuma-4a697'
         });
-        console.log("connected art storage");
     }
 
     /**
@@ -189,8 +186,6 @@ exports.printfile = function printfile(req,res) {
         });
     }
 
-    // Handle Server req/res logic like a NodeJS API
-    // https://cloud.google.com/functions/docs/writing/http
 
     if (req.method == "POST") {
         var r_uid;
@@ -214,4 +209,4 @@ exports.printfile = function printfile(req,res) {
         res.status(400).send({error:"Only Accepting POST reqs"});
     }
 
-}// EOF
+}
