@@ -42,7 +42,7 @@ exports.autotag = function autotag (context,data) {
             action : "read",
             expires: expires,
         };
-        thisFile.getSignedUrl(params, function(err,url){
+        thisFile.getSignedUrl(params, function(err,url) {
             //NOTE url is an auth'd url for {lifespan} ms
             Clarifai.getTagsByUrl(url, {
                 // Pass tagging params here :

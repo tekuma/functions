@@ -1,18 +1,7 @@
 const gcloud   = require('gcloud');
 const jimp     = require('jimp');
 
-// Deploy via gcloud CLI via
-// $ gcloud alpha functions deploy printfile --bucket art-functions --trigger-http
-
-/*  TESTING:
- gcloud alpha functions call printfile --data '{"uid":"JvrOHCvEKRaLiFHmjmq02rg0Ava2" , "artworkuid":"-KOAlYQiVqtVX9Bgwrba" , "artist":"Test Name"}'
- -or-
- go to the 'test' table in the gcloud function web GUI
- and submit this:
- {"uid":"JvrOHCvEKRaLiFHmjmq02rg0Ava2" , "artworkuid":"-KOAlYQiVqtVX9Bgwrba" , "artist":"Kanye West"}
- -or-
- use cURL to send a post request
- */
+// See README.md for deployment and testing
 
 exports.printfile = function printfile(req,res) {
     // ============== Methods ================
