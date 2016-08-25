@@ -5,6 +5,7 @@ You specify the image by providing:
 * Arist UID
 * Artwork UID
 * the name to print on the printfile
+
 Then, the printfile is uploaded directly to the curator printfile storage bucket located at
 <https://console.cloud.google.com/storage/browser?project=curator-tekuma>
 
