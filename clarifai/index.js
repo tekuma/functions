@@ -6,8 +6,6 @@ const gcloud     = require('gcloud');
 // upload with ```bash
 // gcloud alpha functions deploy autotag --bucket art-functions --trigger-gs-uri art-uploads
 
-
-
  /*  Testing sample Data objects
 {
 "resourceState": "exists",
@@ -164,7 +162,7 @@ exports.autotag = function autotag (context,data) {
             .then(recordInDatabase);
     } else {
         // Trigger was not caused by a full size image upload. Thus, ignore it.
-        console.log("<< Empty Call:", "from portal:",fromPortal,"from uploads:",fromUploads );
+        console.log("<< Empty Call:", "from portal:", data.name);
         context.done()
     }
 

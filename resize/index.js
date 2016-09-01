@@ -4,6 +4,7 @@ const firebase = require('firebase');
 const jimp     = require('jimp');
 
 // gcloud alpha functions deploy resize --bucket art-functions --trigger-gs-uri art-uploads
+// gcloud alpha functions deploy resize --stage-bucket dev-art-functions --trigger-bucket dev-art-uploads
 
 exports.resize = function resize (context,data) {
 
